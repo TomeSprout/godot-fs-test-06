@@ -14,3 +14,41 @@ Created `import_stage` directory in main directory to house saved files from ext
 ### Tree View of Filesystem and Folder Structure
 
 ![Filesystem Tree](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/755134b9-d2b1-47bf-95f5-5b61e9319a07/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220511%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220511T003700Z&X-Amz-Expires=86400&X-Amz-Signature=198c0b28fc716bd0703f78b57b59bcb2cd5c449d510dc00a1bcfbf2cfa6da12c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+
+.
+├── README.md
+├── .gitignore
+├── .github/
+│   └── workflows/
+│       └── godot_ci.yml
+├── build/
+│   └── win/
+│       └── game.exe.test
+├── docs/
+│   └── filesystem.md
+├── import_stage/
+│   ├── effect.acd
+│   ├── player.xcf
+│   ├── player_tileset.xcf
+│   └── song.sfas
+└── project/
+    ├── addons/
+    │   └── godot-git-plugin/
+    ├── default_env.tres
+    ├── icon.png
+    ├── icon.png.import
+    ├── project.godot
+    ├── src/
+    │   ├── Level.tscn
+    │   └── Level.tscn
+    ├── assets/
+    │   ├── sprites/
+    │   │   ├── player.png
+    │   │   └── player_tileset.png
+    │   ├── music/
+    │   │   └── song.ogg
+    │   └── sounds/
+    │       └── effect.wav
+    └── test/
+        └── unit/
+            └── test_player.gd
